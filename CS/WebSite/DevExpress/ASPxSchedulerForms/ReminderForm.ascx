@@ -1,5 +1,5 @@
 <%@ Control Language="C#" AutoEventWireup="true" CodeFile="ReminderForm.ascx.cs" Inherits="ReminderForm" %>
-<%@ Register Assembly="DevExpress.Web.v15.2, Version=15.2.0.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4" Namespace="DevExpress.Web"
+<%@ Register Assembly="DevExpress.Web.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web"
     TagPrefix="dxe" %>
 
 <table width="100%" cellpadding="0" cellspacing="0" style="padding-bottom:15px;">

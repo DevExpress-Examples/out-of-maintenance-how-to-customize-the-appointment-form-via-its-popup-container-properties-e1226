@@ -33,13 +33,12 @@ Partial Public Class _Default
 
 
     Private Function GetCustomEvents() As CustomEventList
-
-        Dim events_Renamed As CustomEventList = TryCast(Session("ListBoundModeObjects"), CustomEventList)
-        If events_Renamed Is Nothing Then
-            events_Renamed = GenerateCustomEventList()
-            Session("ListBoundModeObjects") = events_Renamed
+        Dim events As CustomEventList = TryCast(Session("ListBoundModeObjects"), CustomEventList)
+        If events Is Nothing Then
+            events = GenerateCustomEventList()
+            Session("ListBoundModeObjects") = events
         End If
-        Return events_Renamed
+        Return events
     End Function
 
     #Region "Random events generation"
