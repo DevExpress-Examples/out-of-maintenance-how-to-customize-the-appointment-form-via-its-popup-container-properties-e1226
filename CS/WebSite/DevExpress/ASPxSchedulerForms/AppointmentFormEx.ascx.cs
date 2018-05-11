@@ -74,7 +74,7 @@ public partial class AppointmentFormEx : SchedulerFormControl {
 		Appointment apt = container.Appointment;
 		edtLabel.SelectedIndex = apt.LabelId;
 		edtStatus.SelectedIndex = apt.StatusId;
-		if(!Object.Equals(apt.ResourceId, Resource.Empty.Id))
+		if(!Object.Equals(apt.ResourceId, DevExpress.XtraScheduler.EmptyResourceId.Id))
 			edtResource.Value = apt.ResourceId.ToString();
 		else
 			edtResource.Value = SchedulerIdHelper.EmptyResourceId;

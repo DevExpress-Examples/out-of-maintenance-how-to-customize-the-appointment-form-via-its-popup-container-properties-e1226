@@ -45,10 +45,10 @@
 {************************************************************************************}--%>
 
 <%@ Control Language="C#" AutoEventWireup="true" Inherits="InplaceEditor" CodeFile="InplaceEditor.ascx.cs" %>
-<%@ Register Assembly="DevExpress.Web.ASPxScheduler.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxScheduler" TagPrefix="dxwschs" %>
-<%@ Register Assembly="DevExpress.Web.ASPxScheduler.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxScheduler.Controls"
+<%@ Register Assembly="DevExpress.Web.ASPxScheduler.v18.1, Version=18.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxScheduler" TagPrefix="dxwschs" %>
+<%@ Register Assembly="DevExpress.Web.ASPxScheduler.v18.1, Version=18.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxScheduler.Controls"
     TagPrefix="cc1" %>
-<%@ Register Assembly="DevExpress.Web.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web"
+<%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web"
     TagPrefix="dxe" %>
 <table cellpadding="2"; cellspacing="0" style="width:100%; height:100%">
     <tr>
@@ -60,8 +60,7 @@
 
         <div>
             <cc1:NoBorderButton runat="server" ClientInstanceName="_dx" ID="btnSave" Width="19px" Height="19px" ToolTip="Save" 
-                ImageUrl='<%#Page.ClientScript.GetWebResourceUrl(typeof(ASPxScheduler), "Images.InplaceEditor.Save.png") %>' 
-                Image-IsResourcePng="True">
+                ImageUrl='<%#Page.ClientScript.GetWebResourceUrl(typeof(ASPxScheduler), "Images.InplaceEditor.Save.png") %>'>
              <Image Height="19px" Width="19px" />
             </cc1:NoBorderButton> 
         </div>
@@ -69,7 +68,7 @@
         <div style="padding-top:1px;">
             <cc1:NoBorderButton runat="server" ClientInstanceName="_dx" ID="btnCancel" Width="19px" Height="19px" ToolTip="Cancel" 
                 ImageUrl='<%#Page.ClientScript.GetWebResourceUrl(typeof(ASPxScheduler), "Images.InplaceEditor.Cancel.png") %>' 
-                CausesValidation="False" Image-IsResourcePng="True">
+                CausesValidation="False">
              <Image Height="19px" Width="19px"/>
             </cc1:NoBorderButton> 
         </div>
@@ -77,7 +76,7 @@
         <div style="padding-top:6px;">
             <cc1:NoBorderButton runat="server" ClientInstanceName="_dx" ID="btnEditForm" Width="19px" Height="19px" ToolTip="Open Edit Form..." 
                 ImageUrl='<%#Page.ClientScript.GetWebResourceUrl(typeof(ASPxScheduler), "Images.InplaceEditor.EditForm.png") %>' 
-                CausesValidation="False" Image-IsResourcePng="True">
+                CausesValidation="False">
              <Image Height="19px" Width="19px" />
             </cc1:NoBorderButton>
         </div>
