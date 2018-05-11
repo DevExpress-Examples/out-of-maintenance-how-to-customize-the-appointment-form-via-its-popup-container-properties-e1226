@@ -39,7 +39,7 @@
 <table style="width:100%; height:100%">
     <tr>
         <td rowspan="2"  style="vertical-align:top;">
-            <dxe:ASPxImage id="Image" runat="server" EnableViewState="False" ImageUrl='<%#Page.ClientScript.GetWebResourceUrl(GetType(ASPxScheduler), "Images.StatusInfo.Info.png")%>' Width="48px" Height="48px" IsPng="true">
+            <dxe:ASPxImage id="Image" runat="server" EnableViewState="False" ImageUrl='<%#Page.ClientScript.GetWebResourceUrl(GetType(ASPxScheduler), "Images.StatusInfo.Info.png")%>' Width="48px" Height="48px">
             </dxe:ASPxImage>
         </td>
         <td style="width:100%;">

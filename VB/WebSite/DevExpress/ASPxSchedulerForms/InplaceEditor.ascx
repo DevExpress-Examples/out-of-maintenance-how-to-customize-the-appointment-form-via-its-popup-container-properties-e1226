@@ -60,8 +60,7 @@
 
         <div>
             <cc1:NoBorderButton runat="server" ClientInstanceName="_dx" ID="btnSave" Width="19px" Height="19px" ToolTip="Save" 
-                ImageUrl='<%#Page.ClientScript.GetWebResourceUrl(GetType(ASPxScheduler), "Images.InplaceEditor.Save.png")%>' 
-                Image-IsResourcePng="True">
+                ImageUrl='<%#Page.ClientScript.GetWebResourceUrl(GetType(ASPxScheduler), "Images.InplaceEditor.Save.png")%>'>
              <Image Height="19px" Width="19px" />
             </cc1:NoBorderButton> 
         </div>
@@ -69,7 +68,7 @@
         <div style="padding-top:1px;">
             <cc1:NoBorderButton runat="server" ClientInstanceName="_dx" ID="btnCancel" Width="19px" Height="19px" ToolTip="Cancel" 
                 ImageUrl='<%#Page.ClientScript.GetWebResourceUrl(GetType(ASPxScheduler), "Images.InplaceEditor.Cancel.png")%>' 
-                CausesValidation="False" Image-IsResourcePng="True">
+                CausesValidation="False">
              <Image Height="19px" Width="19px"/>
             </cc1:NoBorderButton> 
         </div>
@@ -77,7 +76,7 @@
         <div style="padding-top:6px;">
             <cc1:NoBorderButton runat="server" ClientInstanceName="_dx" ID="btnEditForm" Width="19px" Height="19px" ToolTip="Open Edit Form..." 
                 ImageUrl='<%#Page.ClientScript.GetWebResourceUrl(GetType(ASPxScheduler), "Images.InplaceEditor.EditForm.png")%>' 
-                CausesValidation="False" Image-IsResourcePng="True">
+                CausesValidation="False">
              <Image Height="19px" Width="19px" />
             </cc1:NoBorderButton>
         </div>

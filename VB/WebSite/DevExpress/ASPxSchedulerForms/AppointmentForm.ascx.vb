@@ -69,7 +69,7 @@ Partial Public Class AppointmentForm
         Dim apt As Appointment = container.Appointment
         edtLabel.SelectedIndex = apt.LabelId
         edtStatus.SelectedIndex = apt.StatusId
-        If Not Object.Equals(apt.ResourceId, Resource.Empty.Id) Then
+        If Not Object.Equals(apt.ResourceId, DevExpress.XtraScheduler.EmptyResourceId.Id) Then
             edtResource.Value = apt.ResourceId.ToString()
         Else
             edtResource.Value = SchedulerIdHelper.EmptyResourceId
