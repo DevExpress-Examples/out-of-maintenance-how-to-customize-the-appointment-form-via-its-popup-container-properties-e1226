@@ -1,8 +1,3 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128546281/15.2.4%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E1226)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 <!-- default file list -->
 *Files to look at*:
 
@@ -32,9 +27,6 @@
 * [VerticalAppointmentTemplate.ascx.cs](./CS/WebSite/DevExpress/ASPxSchedulerForms/VerticalAppointmentTemplate.ascx.cs) (VB: [VerticalAppointmentTemplate.ascx.vb](./VB/WebSite/DevExpress/ASPxSchedulerForms/VerticalAppointmentTemplate.ascx.vb))
 <!-- default file list end -->
 # How to customize the appointment form via its popup container properties
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e1226/)**
-<!-- run online end -->
 
 
 <p>This example illustrates the use of the <a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxSchedulerASPxScheduler_PrepareAppointmentFormPopupContainertopic">PrepareAppointmentFormPopupContainer</a> event for customizing the layout of the appointment form. The <a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxSchedulerASPxSchedulerPrepareFormPopupContainerEventArgs_Popuptopic">Popup</a> property of the event arguments provides access to the container window and enables you to modify the window caption, background color, paddings and so on.</p><p>Note that this event is a member of the Prepare*Container event family. These events are intended to facilitate slight modifications of ASPxScheduler popup forms.</p><p>The Prepare*Container events are listed below:</p><p><a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxSchedulerASPxScheduler_PrepareAppointmentFormPopupContainertopic">PrepareAppointmentFormPopupContainer</a><br />
